@@ -7,6 +7,9 @@ BRANCH="budget"
 # Maximum unsigned integer size in C
 UINT_MAX="4294967295"
 
+# Changing pixel density to 300
+wm density 300
+
 # Duration in nanoseconds of one scheduling period
 SCHED_PERIOD="$((5 * 1000 * 1000))"
 
